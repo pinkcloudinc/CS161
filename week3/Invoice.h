@@ -41,7 +41,6 @@ public:
 		
 		void Vat(double valueAddTax) {
 			valueAddTax = .20;
-
 		}
 		
 		int getValue() {
@@ -56,14 +55,12 @@ public:
 		}
 		void displayInvoice() {
 			cout << getValue() << "\n";
-
-
+			
 		}
 
 
 
 private:
-	double valueAddedTax{ .20 };
 	std::string partName{0};
 	int value{ 0 };
 	};
