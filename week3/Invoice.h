@@ -11,6 +11,7 @@ public:
 			if (partvalue > 0) {
 				value = partvalue;
 			}
+			
 			 
 		}
 		void price(int partPrice) {
@@ -35,13 +36,11 @@ public:
 		
 		void sale(double saleDiscount) {
 			if (saleDiscount > 0) {
-				value = value - (value * (saleDiscount / 100));
+				value = value - (value * (saleDiscount / 100);
 			}
 		}
 		
-		void Vat(double valueAddTax) {
-			valueAddTax = .20;
-		}
+		
 		
 		int getValue() {
 
@@ -54,7 +53,8 @@ public:
 			return partName;
 		}
 		void displayInvoice() {
-			cout << getValue() << "\n";
+			//double vat{ .20 };
+			//cout << partPrice * partValue / vat << "\n";
 			
 		}
 
