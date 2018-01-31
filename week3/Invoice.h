@@ -53,9 +53,12 @@ public:
 			return partName;
 		}
 		void displayInvoice() {
-			//double vat{ .20 };
-			//cout << partPrice * partValue / vat << "\n";
+		
 			
+			
+		}
+		void withTax() {
+			cout << price * quantity * .20;
 		}
 
 
