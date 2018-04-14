@@ -27,7 +27,9 @@ public:
 
 
 		void Number(std::string partNumber) {
-			cout << "Part Number: " << partNumber << "\n";
+			cout << "Part Number: ";
+			partName = partName + partNumber;
+
 		}
 		void Descrip(std::string partDescrip) {
 			cout << "Part Description:  " << partDescrip << "\n";
@@ -52,14 +54,14 @@ public:
 		std::string getPartName() const {
 			return partName;
 		}
-		void displayInvoice() {
+		//void displayInvoice() {
+		//	return value * .20;
+			
+		//}
+		void returnInvoive() {
+			return value;
+		}
 		
-			
-			
-		}
-		void withTax() {
-			cout << price * quantity * .20;
-		}
 
 
 
